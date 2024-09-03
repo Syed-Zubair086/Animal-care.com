@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+.main-header {
+    padding: 15px 0;
+    background-color: #daac00;
+}
+.logo {
+    padding-left: 0px;
+}
+.menu {
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.menu ul {
+    display: flex;
+    gap: 25px;
+}
+.menu ul li{
+	list-style: none;
+}
+.menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px 20px;
+    transition: 0.7s all;
+    border-radius: 10px;
+}
+.serch input {
+    width: 200px;
+    height: 40px;
+    padding: 0 10px;
+    outline: 0;
+    background-color: #fcc302;
+    border: none;
+    color: white;
+}
+
+.serch button {
+    background-color: #00bec9;
+    color: white;
+    margin: 0 -15px;
+    padding: 8px 15px;
+    border: none;
+}
+section.banner-1 {
+    background-color: #fcc302;
+    padding: 120px 0;
+}
+/*.content {
+    padding-left: 40px;
+}*/
+.content h2 {
+    font-size: 60px;
+    color: white;
+}
+.content p {
+    font-size: 27px;
+    height: 25px;
+    color: white;
+}
+.btn-0 {
+    display: flex;
+    padding-top: 50px;
+}
+.btn a {
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #00bec9;
+    border-radius: 10px;
+    color: white;
+    transition: 0.4s all;
+    font-weight: 500;
+}
+.btn {
+    margin: 0 -12px;
+}
+.btn-1 a {
+    text-decoration: none;
+    padding: 12px 40px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    border: 3px solid white;
+    transition: 0.7s all;
+}
+.btn-1 a:hover {
+    background-color: #00bec9;
+    border: none;
+    color: white;
+    padding: 15px 45px;
+    border-radius: 12px;
+}
+.btn-1 {
+    padding: 7px 45px;
+}
+.btn a:hover {
+    background-color: #fcc302;
+    border: 3px solid white;
+    padding: 11px 30px;
+    border-radius: 4px;
+    color: white;
+}
+.content-pic {
+    text-align: center;
+}
+/*.content-pic {
+    margin: -70px 0;
+    float: right;
+}*/
+.serch input::placeholder{
+	color: white;
+}
+
+.content-2 h2 {
+    font-size: 45px;
+    /* color: white; */
+}
+.content-2 p {
+    font-size: 24px;
+    height: 25px;
+    /*color: white;*/
+}
+.btn-2 a {
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #fcc302;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    transition: 0.7s all;
+}
+.btn-2 a:hover {
+    background-color: #00be9c;
+    color: white;
+}
+.btn-2 {
+    padding-top: 30px;
+}
+section.banner-2 {
+    padding: 100px;
+}
+.head {
+    text-align: center;
+    padding: 0px 0 50px;
+}
+
+.head h2 {
+    color: white;
+    font-size: 70px;
+}
+
+.head p {
+    font-size: 30px;
+    height: 25px;
+    color: white;
+}
+section.banner-3 {
+    background-color: #fcc302;
+    padding: 100px;
+}
+.work {
+    text-align: center;
+    padding: 0px 0 100px;
+}
+.title-pics img {
+    width: 100%;
+}
+.title-content h4 {
+    font-size: 40px;
+    color: white;
+}
+
+.title-content p {
+    font-size: 25px;
+    color: white;
+    height: 15px;
+}
+.title-content {
+    padding-top: 30px;
+}
+section.banner-4 {
+    padding: 200px 0;
+}
+.ban-4 {
+    /*float: right;*/
+    text-align: left;
+    margin-left: 70px;
+}
+span {
+    text-decoration: line-through;
+}
+section.banner-6 {
+    padding: 100px;
+}
+.title-content a {
+    padding: 10px 55px;
+    background-color: #00bec9;
+    border-radius: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.btn-00 a:hover {
+    background-color: #ad6dab;
+    color: white;
+}
+.btn-00 a {
+    transition: 0.7s all;
+}
+.btn-00 {
+    padding-top: 25px;
+}
+.black h2 {
+    color: black;
+    font-weight: 900;
+}
+.black p {
+    color: black;
+}
+.title-content-0 {
+    padding-top: 25px;
+}
+.title-content-0 h3 {
+    font-size: 40px;
+}
+.title-content-0 h6 {
+    font-size: 25px;
+}
+.iconss ul {
+    display: flex;
+    gap: 15px;
+}
+.iconss {
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.iconss ul li {
+    text-decoration: none;
+    background: #d9b235;
+    color: white;
+    border-radius: 100pc;
+    width: 40px;
+    font-size: 25px;
+    height: 40px;
+    text-align: center;
+    list-style: none;
+    line-height: 40px;
+    transition: 0.6s all;
+}
+.iconss ul li:hover {
+    background-color: #00c8e0;
+}
+.client-img img {
+    width: 100%;
+}
+.re-head {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.re-head h2 {
+    font-size: 65px;
+    font-weight: 800;
+}
+.re-head p {
+    font-size: 30px;
+    font-weight: 400;
+    height: 20px;
+}
+section.banner-8 {
+    padding: 100px;
+}
+.re-content h4 {
+    font-size: 30px;
+    height: 30px;
+    padding-top: 30px;
+}
+.re-content h6 {
+    color: #00bec9;
+    padding-top: 40px;
+}
+.re-content h5 {
+    color: #00bec9;
+    padding: 0 0 25px;
+}
+.re-content {
+    padding-left: 20px;
+    border: 2px solid gray;
+    border-top: none;
+}
+footer.banner-9 {
+    background-color: #343434;
+    padding: 100px;
+}
+.serch-0 input {
+    outline: 0;
+    padding: 0 10px;
+    border: none;
+    background-color: #fcc302;
+    width: 380px;
+    height: 50px;
+}
+.serch-0 button {
+    background-color: #00bec9;
+    width: 80px;
+    height: 50px;
+    border: none;
+    color: white;
+    outline: 0;
+    font-size: 25px;
+    margin: 0px -8px;
+    padding-bottom: 7px;
+}
+.foter-1 p {
+    height: 20px;
+    color: white;
+}
+.foter-1 h4{
+    color: white;
+}
+.foter-2 h4{
+    color: white;
+}
+.foter-2 p{
+    color: white;
+}
+.recent-img img {
+    width: 100%;
+}
+.icons-0 ul {
+    display: flex;
+    gap: 15px;
+}
+.icons-0 {
+    padding-left: 220px;
+    padding-top: 40px;
+}
+.icons-0 ul li {
+    text-decoration: none;
+    background: white;
+    color: #343434;
+    border-radius: 100pc;
+    width: 40px;
+    font-size: 25px;
+    height: 40px;
+    text-align: center;
+    list-style: none;
+    line-height: 40px;
+    transition: 0.7s all;
+}
+.icons-0 ul li:hover {
+    background-color: #00bec9;
+    color: white;
+}
+section.banner-7:before {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background-color: #ffff0057;
+}
+.banner-7 {
+    background-image: url(img/13.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+    position: relative;
+}
+.clients-c {
+    text-align: center;
+}
+.client-img-2 h2 {
+    color: white;
+}
+.client-img-2 h3 {
+    color: white;
+}
+.client-img-0 h2 {
+    color: white;
+}
+.client-img-0 h3 {
+    color: white;
+}
+.client-img-1 h2 {
+    color: white;
+}
+.client-img-1 h3 {
+    color: white;
+}
+.menu ul li a:hover {
+    background-color: #00bec9;
+}
